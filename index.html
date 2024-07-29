@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../Review/css/style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    
+   
+</head>
+<body>
+    <section>
+        <div class="review-heading">
+        <h1>Review</h1>
+    </div>  
+    <div class="review-boxes">
+    <div class="card-box">
+        <div class="up-card">
+            <div class="circle"> <img src="../Review/image/profile-pic.jpg" alt=""></div>
+        </div>
+        <div class="bottom-card">
+            <h3>Rose Bush 1</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa adipisci aliquam magni, enim dignissimos autem est veritatis animi</p>
+           <div class="bottom-btn"> <a href="#">View More</a></div>
+        </div>
+    </div>
+
+    <div class="card-box">
+        <div class="up-card">
+            <div class="circle"> <img src="../Review/image/profile-pic.jpg" alt=""></div>
+        </div>
+        <div class="bottom-card">
+            <h3>Rose Bush 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa adipisci aliquam magni, enim dignissimos autem est veritatis animi</p>
+           <div class="bottom-btn"> <a href="#">View More</a></div>
+        </div>
+    </div>
+    <div class="card-box">
+        <div class="up-card">
+            <div class="circle"> <img src="../Review/image/profile-pic.jpg" alt=""></div>
+        </div>
+        <div class="bottom-card">
+            <h3>Rose Bush 3</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa adipisci aliquam magni, enim dignissimos autem est veritatis animi</p>
+           <div class="bottom-btn"> <a href="#">View More</a></div>
+        </div>
+    </div>
+    <div class="card-box">
+        <div class="up-card">
+           <div class="circle"> <img src="../Review/image/profile-pic.jpg" alt=""></div>
+        </div>
+        <div class="bottom-card">
+            <h3>Rose Bush 4</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa adipisci aliquam magni, enim dignissimos autem est veritatis animi</p>
+           <div class="bottom-btn"> <a href="#">View More</a></div>
+        </div>
+    </div>
+    <div class="card-box">
+        <div class="up-card">
+            <div class="circle"> <img src="../Review/image/profile-pic.jpg" alt=""></div>
+        </div>
+        <div class="bottom-card">
+            <h3>Rose Bush 5</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis culpa adipisci aliquam magni, enim dignissimos autem est veritatis animi</p>
+           <div class="bottom-btn"> <a href="#">View More</a></div>
+        </div>
+    </div>
+    
+</div>
+    </section>
+
+
+
+
+<script>
+
+$('.review-boxes').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+</script>
+
+   
+</body>
+</html>
